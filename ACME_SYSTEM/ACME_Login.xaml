@@ -53,7 +53,7 @@
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Add the login sequence from here. assumptions are that you are already on a screen.&#xA;&#xA;Arguments&#xA;in_url&#xA;&#xA;&#xA;output: boolean " DisplayName="ACME_Login" sap:VirtualizedContainerService.HintSize="271.333333333333,316.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Add the login sequence from here. assumptions are that you are already on a screen.&#xA;&#xA;Arguments&#xA;in_url&#xA;&#xA;&#xA;output: boolean " DisplayName="ACME_Login" sap:VirtualizedContainerService.HintSize="271.333333333333,419.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -61,5 +61,6 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="229.333333333333,62.6666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Login Done" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="229.333333333333,62.6666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="Another change" />
   </Sequence>
 </Activity>
